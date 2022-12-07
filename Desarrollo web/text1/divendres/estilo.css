@@ -1,0 +1,24 @@
+
+ /*
+
+ elemento.nombre clase{
+
+} */
+
+
+
+p.especial1{
+    
+    color:red
+}
+
+p.especial2{
+
+    font-style: blue;
+}
+/* para que salga en negrita es el bold  */
+p#uno{
+
+    color: aqua;
+    font-weight: bold;
+}
