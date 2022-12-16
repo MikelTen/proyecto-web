@@ -1,0 +1,13 @@
+div.bloc1{
+
+    color: red;
+    background-color: blue;
+    display: inline-block;
+}
+
+/* para ponerlo en bloques el inline-block */
+div.bloc2{
+    display: inline-block;
+    color: green;
+    background-color: yellow;
+}

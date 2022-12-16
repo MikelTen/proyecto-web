@@ -1,0 +1,59 @@
+<!-- Ejemplo onkeydown event -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+ <!-- script javascript     -->
+<script>
+function mifuncion() {
+  alert("se ha ejecutado evento onkeydown");
+}
+
+
+// desarrolla funcion muestra mensaje "hola" 1 finestra
+// muiestra mensaeje hol
+// se abre otra ventana muestra "buen dia"
+
+// mensaje onkeydown
+function uno(){
+alert ("has ejecutado evento onkeydown");
+}
+
+// mensaje onkeypress
+function dos(){
+  alert ("has ejecutado evento onkeypress");
+}
+
+// mensaje onkeyup
+function tres(){
+  alert ("has ejecutado evento onkeyup");
+}
+</script>
+</head>
+
+
+<body >
+<h1>Eventos HTML</h1>
+<p>Escribe en el cuadro de texto</p>
+
+<!-- introducir caja texto que se ejecute funcion en envento onkedown
+la función mostrará mensaje "has ejecutado evento on key down" -->
+<!-- introducir la caja de texto 1 -->
+
+Evento onkeydown <input type="text" onkeydown="uno()">
+<br>
+<!-- introducir caja texto que se ejecute funcion en envento onkeypress
+la función mostrará mensaje "has ejecutado evento on keypress" -->
+
+Evento onkeypress <input type="text" onkeypress="dos()">
+<br>
+<!-- introducir caja texto que se ejecute funcion en envento onkeyup
+la función mostrará mensaje "has ejecutado evento on keyup" -->
+
+
+Evento onkeyup<input type="text" onkeyup="tres()">
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+span.caja {
+    /* color de fondo */
+    background-color: yellow;
+    /* borde anchura tipo color */
+    border: 1px solid red;
+    /* anchura */
+    width: 250px;
+    /* altura */
+    height: 100px;
+    /* cuando pones block se adapta, si pones inline se vería en línea ,no y si pones inlineblock sí */
+    display: inline-block;
+}
+div.caja{
+
+    /* color de fondo */
+    background-color: yellow;
+    /* borde anchura tipo color */
+    border: 1px solid red;
+    /* anchura */
+    width: 250px;
+    /* altura */
+    height: 100px;
+    /* cuando pones bloques se adapta, el inline block sí respeta altura y anchura */
+    display: inline-block;
+}
+span.fecha{
+    /* tipo de fuente */
+    font-style: oblique;
+    /* opción subrayado */
+    text-decoration: underline;
+}
